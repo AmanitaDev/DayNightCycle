@@ -1,1 +1,1 @@
-[Watch it here](Assets/Recordings/Recording0.mp4)
+[![Watch the video](https://img.youtube.com/vi/mlQhDlsiync/0.jpg)](https://www.youtube.com/watch?v=mlQhDlsiync)
