@@ -53,6 +53,11 @@ public class TimeManager : MonoBehaviour {
         initialDialRotation = dial.rotation.eulerAngles.z;
     }
 
+    private void OnDestroy()
+    {
+        skyboxMaterial.SetFloat("_Blend", 0);
+    }
+
     void Update() {
         UpdateTimeOfDay();
         RotateSun();
